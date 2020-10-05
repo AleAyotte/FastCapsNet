@@ -10,6 +10,6 @@ The present package is written in **Python 3.8**. In order to run a full capacit
 ```
 
 ## Major optimization
-- ``` In the primary capsule we replace the list of convolution by a single convulation with num_capsules times more out_channels and we reshape it ```
-- ``` In the high capsules we replace tranpose the num_capsules dimension with the vector dimension of the prior vector ```
-- ``` In the high capsules we directly used the softmax function of pytorch ```
+1) In the primary capsule we replace the list of convolution by a single convulation with num_capsules times more out_channels and we reshape it.
+2) In the high capsules we replace tranpose the num_capsules dimension with the vector dimension of the prior vector.
+3) In the high capsules we directly used the softmax function of pytorch.
