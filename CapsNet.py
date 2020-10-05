@@ -7,7 +7,7 @@
     @Creation Date:     04/10/2020
     @Last modification: 04/10/2020
 
-    A optimized implementation of the CapsNet from GRAM-AI that do not required TorchNet and Visdom
+    An optimized implementation of the CapsNet from GRAM-AI that do not required TorchNet and Visdom
 """
 
 import numpy as np
